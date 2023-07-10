@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+@font-face {
+    font-family: 'FonteLogo';
+    src: url("../_fonts/bubblegum-sans-regular.otf");
+    }
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #87CEFA;
+}
+
+div#interface {
+    position: relative;/* Transforma a div em um container */
+    background-color: #fff; /* branco */
+    width: 700px;
+    margin: -23px auto 0px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0, 0.5); /* sombra */
+    padding: 10px; /* espaçamento interno da div */
+}
+
+header#cabecalho {
+    text-align: center;
+    color: #0000CD;
+    border-bottom: 1px #606060 solid;
+    height: 100px;
+    background: url("../_imagens/https://th.bing.com/th/id/OIP.Am6vX-7zXqL6cMk8Hi9aegHaEm?pid=ImgDet&rs=1") no-repeat 0px 80px;
+}
+
+header#cabecalho h1 {
+    font-family: 'Courier New';
+    color: #blue;
+    font-size: 28pt;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 0.6);
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    color: #606060;
+}
+
+header#cabecalho h2 {
+    font-family: 'Titillium Web', sans-serif;
+    color: #606060;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho h3 {
+    font-family: 'Courier New', sans-serif;
+    color: #0000CD; /* cinza claro */
+    padding: 0px;
+    margin-top: 0px;
+    font-size: 12pt;
+}
+
+footer {
+    clear: both;
+    border-top: 1px solid #606060;
+}
+
+footer p {
+    text-align: center;
+}
